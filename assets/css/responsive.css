@@ -1,0 +1,79 @@
+    /* MObile */
+    
+    @media (max-width:46.1875em) {
+        .s-col-full {
+            width: 100% !important;
+        }
+        .mobile-mt-8 {
+            margin-top: 8px !important;
+        }
+        #header {
+            overflow: hidden;
+        }
+        #header .search-box {
+            display: none;
+        }
+        #header .mobile-icon {
+            display: block;
+        }
+        #nav {
+            display: block;
+        }
+        #nav>li {
+            display: block;
+        }
+        #nav li a {
+            padding: 1px 24px;
+        }
+        #nav>li:first-child {
+            display: inline-block;
+        }
+        #nav .subnav {
+            position: initial;
+            background-color: #333;
+        }
+        #nav .subnav a {
+            color: #fff;
+            padding: 5px 41px;
+            ;
+        }
+        #content .list-team .mobile-menu {
+            float: none;
+            width: 100%;
+            margin-top: 30px;
+        }
+        #content .bandmember {
+            width: 60%;
+        }
+        #content .list-team {
+            margin-top: 65px;
+        }
+        #content .places-item {
+            float: none;
+            width: 100%;
+            margin-top: 16px;
+        }
+        #content .contact-info {
+            margin-bottom: 32px;
+        }
+        #content .place-btn,
+        #content .btn-contact {
+            width: 100%;
+        }
+    }
+    /* Tablet & mobile */
+    
+    @media (max-width:63.9375em) {
+        #content .place-btn {
+            padding: 15px 16px;
+        }
+        .input-contact {
+            padding: 15px;
+        }
+        .icon-link {
+            font-size: 48px;
+        }
+        #footer .icon-link a {
+            margin: 0 8px;
+        }
+    }
